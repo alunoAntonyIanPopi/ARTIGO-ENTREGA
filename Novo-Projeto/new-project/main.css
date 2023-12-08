@@ -1,0 +1,48 @@
+main section{
+    background: linear-gradient(120deg,blue,rgb(12, 196, 12));
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    border: 2px solid blue;
+}
+main h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: white;
+}
+main p {
+    font-size: 16px;
+    color: white
+}
+
+/* configuraçoes da div inclusive tenho q termina isso kkkk */
+.espaço1{
+    border: 3px solid green;
+    max-height: 400px;
+}
+section{
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+}
+section div{
+    flex: 1;
+    padding: 20px;
+}
+section img{
+    max-width: 100%;
+    padding: 20px;
+}
+.saiba-mais{
+    border: 2px solid rgb(18, 97, 137);
+    display: inline-block;
+    background-color: rgb(44, 153, 203);
+    padding: 8px 16px;
+    border-radius: rgb(54, 51, 137);
+    text-decoration: 4px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+.saiba-mais:hover{
+    background-color: azure;
+}
